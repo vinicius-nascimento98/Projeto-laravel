@@ -12,7 +12,7 @@
 <h3>Passo 1: DOWNLOAD DO ARQUIVO</h3>
 	<ul>
     <li>
-      Realize o download do arquivo compactado acima e extraia-o no ambiente de desenvolvimento ou servidor web, clique uma vez sobre ele ou digite o seguinte comando no prompt do git:
+      Realize o download do arquivo compactado acima e extraia-o no ambiente de desenvolvimento ou servidor web, clique uma vez sobre ele, e depois clique em 'Download' ou digite o seguinte comando no prompt do git:
       <ul>
         <li>
           git clone https://github.com/vinicius-nascimento98/Projeto-laravel.git';
