@@ -39,11 +39,22 @@
         <li>DB_USERNAME=root;</li>
         <li>DB_PASSWORD=root;</li>
       </ul>
-	  <li>Abra o PHPMYADMIN ou qualquer outro gerenciador de banco de dados, e crie o banco de dados informado na configuração acima [DB_DATABASE=projeto];</li>
+	  <li>Abra o PHPMYADMIN ou qualquer outro gerenciador de banco de dados, e crie o banco de dados informado na configuração acima, com o nome de 'projeto';</li>
     <li>Com o banco de dados configurado é necessário realizar a importação das migrates que serão utilizadas na aplicação, para isso digite o seguinte comando no prompt:</li>
-	    <ul>
+      <ul>
         <li>php artisan migrate</li>
       </ul>
+     <li>Após realziar as configurações necessárias para comunicação do sistema com a aplicação e a importação das migrates, realize a importação do arquivo do seguinte diretório:
+	<ul>
+		<li>projeto\scripts_BD\user_admin.sql</li>
+	</ul>	     
+      </li>
+      <li>Pois é nesse arquivo que possui o cadastro do usuário <b>ADMIN</b>, onde seus dados de acesso são:
+	<ul>
+	   <li>Email: admin@administrador.com</li>
+	   <li>Senha: 123456</li>
+	</ul>
+      </li>
   </ul>
   
-<p><b>Pronto o banco de dados ja esta configurado e a aplicação esta pronta para o uso.</b></p>
+  <p><b>Pronto o banco esta configurado e cadastrado com o usuário Administrador!</b></p>
